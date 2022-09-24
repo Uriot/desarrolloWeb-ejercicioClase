@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bibliotecaModelStoreContainer" CdmEntityContainer="bibliotecaEntities">
+    <EntitySetMapping Name="libros">
+      <EntityTypeMapping TypeName="bibliotecaModel.libros">
+        <MappingFragment StoreEntitySet="libros">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="autor" ColumnName="autor" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="editorial" ColumnName="editorial" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="nomenclatura" ColumnName="nomenclatura" />
+          <ScalarProperty Name="num_pag" ColumnName="num_pag" />
+          <ScalarProperty Name="anio_publi" ColumnName="anio_publi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
